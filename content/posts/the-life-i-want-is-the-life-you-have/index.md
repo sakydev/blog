@@ -5,6 +5,8 @@ title: 'The life I want is the life you have'
 tags: ['journal']
 ---
 
+![The life I want is the life you have](cover.webp)
+
 I recently moved to Europe, away from family, friends and everything I held dear. To live on my own. In a country I haven't visited before, with a language I don't understand and a culture I'm not familiar with.
 
 This massive change brought a set of challenges and discomforts. But I'm also experiencing something I haven't fully embraced before.
