@@ -5,6 +5,9 @@ theme: PaperMod
 pagination:
   pagerSize: 5
 
+permalinks:
+  posts: /posts/:year-:month-:day-:slug/
+
 outputs:
   home:
     - HTML
