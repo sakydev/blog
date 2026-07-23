@@ -2,6 +2,7 @@
 date: '2021-10-29T00:00:00+02:00'
 draft: false
 title: 'I must stick to my word'
+tags: ['journal']
 ---
 
 Talk is cheap. It is meaningless unless backed by actions.

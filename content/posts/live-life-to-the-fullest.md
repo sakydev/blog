@@ -2,6 +2,7 @@
 date: '2021-08-27T03:07:00+02:00'
 draft: false
 title: 'Live life to the fullest'
+tags: ['journal']
 ---
 
 *3:07 am*
