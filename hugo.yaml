@@ -63,7 +63,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Saqib Razzaq"
-    Content: I write things down so I can't pretend I didn't think them.
+    Content: Notes I didn't throw away. Poems, stories, articles, and the occasional 3am journal entry.
 
   socialIcons:
     - name: github
