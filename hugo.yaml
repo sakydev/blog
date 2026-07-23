@@ -9,6 +9,9 @@ pagination:
 permalinks:
   posts: /posts/:year-:month-:day-:slug/
 
+taxonomies:
+  tag: tags
+
 outputs:
   home:
     - HTML
@@ -89,22 +92,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
-      weight: 20
+      weight: 10
     - identifier: archives
-      name: archives
+      name: Archives
       url: /archives/
-      weight: 30
+      weight: 20
     - identifier: search
-      name: search
+      name: Search
       url: /search/
-      weight: 40
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
