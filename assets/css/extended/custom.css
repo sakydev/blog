@@ -1,0 +1,30 @@
+:root {
+    --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --font-body: Charter, Georgia, "Times New Roman", serif;
+}
+
+body,
+.entry-content,
+.post-content {
+    font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-single .post-title,
+.entry-hint-parent {
+    font-family: var(--font-display);
+    font-weight: 600;
+}
+
+.logo,
+.menu,
+.nav,
+.post-meta,
+.post-tags,
+.terms-tags,
+.breadcrumbs,
+.entry-footer,
+.post-footer,
+.paginav {
+    font-family: var(--font-body);
+}
