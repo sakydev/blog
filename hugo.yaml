@@ -63,13 +63,25 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Saqib Razzaq"
-    Content: Notes I didn't throw away. Poems, stories, articles, and the occasional 3am journal entries.
+    Content: |
+      Notes I didn't throw away. Mostly unedited. Written when it needed to get out, not when it looked good.
+
+      - [Articles](/tags/articles/): Longer thoughts I decided to defend properly.
+      - [Poems](/tags/poems/): Feelings that didn't fit in a sentence.
+      - [Stories](/tags/stories/): Things that may or may not have happened.
+      - [Journal](/tags/journal/): Where the unfiltered stuff actually lives.
+
+      Or [find out more about me](/about/).
 
   socialIcons:
     - name: github
       url: "https://github.com/sakydev"
     - name: linkedin
       url: "https://linkedin.com/in/sakydev"
+    - name: instagram
+      url: "https://www.instagram.com/sakib.razzaq/"
+    - name: medium
+      url: "https://medium.com/@saqibqx"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -94,6 +106,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
     - identifier: tags
       name: Tags
       url: /tags/
