@@ -1,7 +1,9 @@
 baseURL: "https://sakydev.github.io/blog/"
 title: Saqib Razzaq
-paginate: 5
 theme: PaperMod
+
+pagination:
+  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false
