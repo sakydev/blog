@@ -62,8 +62,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Unfiltered notes to self
+    Title: "Saqib Razzaq"
+    Content: I write things down so I can't pretend I didn't think them.
 
   socialIcons:
     - name: github
