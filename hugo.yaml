@@ -1,5 +1,5 @@
 baseURL: "https://sakydev.github.io/blog/"
-title: Saqib Razzaq
+title: Saqib Razzaq — Unfiltered notes to self
 theme: PaperMod
 
 pagination:
@@ -22,8 +22,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Saqib Razzaq
-  description: "Place for my scribbles"
+  title: Saqib Razzaq — Unfiltered notes to self
+  description: "Unfiltered notes to self"
   keywords: [Blog, Saqib Razzaq, sakydev]
   author: Saqib Razzaq
   DateFormat: "January 2, 2006"
@@ -56,7 +56,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Place for my scribbles
+    Content: Unfiltered notes to self
 
   socialIcons:
     - name: github
