@@ -63,7 +63,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Saqib Razzaq"
-    Content: Notes I didn't throw away. Poems, stories, articles, and the occasional 3am journal entry.
+    Content: Notes I didn't throw away. Poems, stories, articles, and the occasional 3am journal entries.
 
   socialIcons:
     - name: github
