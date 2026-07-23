@@ -1,2 +1,2 @@
 # blog
-Places for my scribbles
+Place for my scribbles
