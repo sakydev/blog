@@ -4,16 +4,14 @@
     {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default ":date_long" site.Params.DateFormat)))) }}
 {{- end }}
 
+{{- if (.Param "ShowWordCount") -}}
+    {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "words" .WordCount | default (printf "%d words" .WordCount)))) }}
+{{- end }}
+
 {{- with (index .Params.tags 0) }}
     {{- $tag := . }}
     {{- $capTag := printf "%s%s" (strings.ToUpper (substr $tag 0 1)) (substr $tag 1) }}
     {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" $capTag)) }}
-{{- end }}
-
-{{- if not (.Param "hideAuthor") -}}
-    {{- with (partial "author.html" .) }}
-        {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" .)) }}
-    {{- end }}
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
