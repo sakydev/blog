@@ -1,7 +1,7 @@
 ---
 date: '2026-03-24T00:00:00+02:00'
 draft: false
-title: 'Kafka'
+title: 'Six Feet Deep and Never Remembered'
 tags: ['journal']
 ---
 
