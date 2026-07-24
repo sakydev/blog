@@ -4,7 +4,7 @@ theme: PaperMod
 titleCaseStyle: none
 
 pagination:
-  pagerSize: 5
+  pagerSize: 20
 
 permalinks:
   posts: /posts/:year-:month-:day-:slug/
