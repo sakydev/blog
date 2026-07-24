@@ -7,7 +7,7 @@
 {{- with (index .Params.tags 0) }}
     {{- $tag := . }}
     {{- $capTag := printf "%s%s" (strings.ToUpper (substr $tag 0 1)) (substr $tag 1) }}
-    {{- $scratch.Add "meta" (slice (printf "<span><a href='%s' class='primary-tag'>%s</a></span>" ($.Site.GetPage (printf "/tags/%s" $tag)).Permalink $capTag)) }}
+    {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" $capTag)) }}
 {{- end }}
 
 {{- if not (.Param "hideAuthor") -}}
